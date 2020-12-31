@@ -3,8 +3,8 @@ import About from './about';
 import Work from './work';
 import Education from './education';
 import Skills from './skills';
-import Portfolio from './portfolio';
-import References from './references';
+// import Portfolio from './portfolio';
+// import References from './references';
 import Footer from '../layout/footer';
 
 class Section extends Component{
@@ -18,14 +18,12 @@ class Section extends Component{
         return (
             <div>
                 <About content={this.props.basics}/>
-                <Education content={this.props.education}/>
-                <References content={this.props.references}/>
-                <Footer content={this.props.basics}/>
                 <Work content={this.props.work}/>
+                <Education content={this.props.education}/>
                 <Skills content={skillsContent}/>
-                <Portfolio content={this.props.portfolio}/>
+                {/* <Portfolio content={this.props.portfolio}/>
+                <References content={this.props.references}/> */}
                 <Footer content={this.props.basics}/>
-
             </div>
         );
     }

@@ -10,14 +10,8 @@ class Footer extends Component{
                         <SocialMedia ulClass='social-links' profiles={this.props.content.profiles}/>
                         <ul className='copyright'>
                             <li>
-                                This site is developed in React.js by&nbsp;
-                                <a
-                                    href='https://suddi.github.io'
-                                    title='Sudharshan Ravindran'
-                                    target='_blank'
-                                    rel='noopener noreferrer'>
-                                    Sudharshan Ravindran
-                                </a> from the original design of Ceevee from&nbsp;
+                                This web profile was built after quick learning of React.js and using reference from suddi.io.
+                                This site uses UI template from&nbsp;
                                 <a
                                     href='http://www.styleshout.com/'
                                     title='Styleshout'

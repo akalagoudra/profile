@@ -3,7 +3,6 @@ import { getDisplayFromDate } from '../utils/datetime';
 
 class Entry extends Component {
     render() {
-        const startDate = getDisplayFromDate(this.props.entry.startDate);
         const endDate = getDisplayFromDate(this.props.entry.endDate);
         return (
             <div className='row item'>
@@ -14,7 +13,7 @@ class Entry extends Component {
                         <span> &bull; </span>
                         <span className='info-summary'>{this.props.entry.summary}</span>
                         <span> &bull; </span>
-                        <em className='date'>{startDate} - {endDate}</em>
+                        <em className='date'>{endDate}</em>
                     </p>
                 </div>
             </div>

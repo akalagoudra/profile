@@ -1,4 +1,4 @@
-import React, { useState, useEffect} from "react";
+import { useState, useEffect} from "react";
 
 function JsonDump(jsonfile){
 
@@ -21,9 +21,8 @@ function JsonDump(jsonfile){
           });
     }
 
-    useEffect( () => {
-      getData()
-    }, [])
+    getData()
+    console.log("Json dump called " + jsonfile + " with data " + data)
 
     return data
 }
