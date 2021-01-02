@@ -2,7 +2,7 @@ let resume = {
     "basics": {
         "name": "Abhishek Kalagoudra",
         "label": "Software Engineer",
-        "picture": "<PHOTO>",
+        "picture": "https://s.gravatar.com/avatar/7fd00e0627dbae39a3baa4a0fb3d740a?s=200",
         "email": "<EMAIL_ADDRESS>",
         "phone": "<PHONE_NUMBER>",
         "website": "abhishekkalagoudra.com",
@@ -39,7 +39,7 @@ let resume = {
             "endDate": "Current",
             "summary": "@Facebook MenloPark, US",
             "highlights": [
-                "Leading the onshore development and operations of Network Analysis Automation Tool for Terragraph wireless radios, a Facebook Connectivity product",
+                "Leading the onshore development and operation of Facebooks in-house Test Automation System for validating Terragraph wireless radios",
                 "Wrote TaskManager which reduced test execution time by 12% to 20% and also helped to reduce 1000s of lines of code",
                 "Developed Stats aggregator with help of Zmq and Thrift which collects and processes stats from  all Nodes and used a similar approach with Kafka with >100 Nodes",
                 "Developed log collection service to dump logs directly on the server with auto-restart, eliminating the log collection overhead on the Node which occupied space",
