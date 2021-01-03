@@ -20,6 +20,9 @@ class Footer extends Component{
                                     Styleshout
                                 </a>
                             </li>
+                            <li>
+                                This site uses AWS Amplify for deploying and hosting with CI/CD workflow and Route 53 for single click domain setup.
+                            </li>
                         </ul>
                     </div>
                     <div id='go-top'>

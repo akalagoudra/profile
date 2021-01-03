@@ -1192,7 +1192,7 @@ footer .copyright li:before {
     padding-right: 10px;
     color: #095153;
 }
-footer .copyright  li:first-child:before {
+footer .copyright  li:before {
     display: none;
 }
 
