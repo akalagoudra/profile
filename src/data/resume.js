@@ -7,7 +7,7 @@ let resume = {
         "phone": "<PHONE_NUMBER>",
         "website": "abhishekkalagoudra.com",
         "summary": [
-            "I am results-driven, Sr. Software engineer with over 10 years of software development experience. Specialized in creating innovative, efficient and customer-centric Web and Mobile applications. I have worked on various domains like WiGig,  CRM, Promotional and Gifting space.",
+            "I am results-driven, Sr. Software engineer with over 12 years of software development experience. Specialized in creating innovative, efficient and customer-centric Web and Mobile applications. I have worked on various domains like developing Test Automation Framework for wireless devices, CRM, Promotional and Gifting space.",
             "Mentored Interns and Jr. Software Engineers. Introduced cross team engineering efforts, which helped team  to learn and build fast.",
         ],
         "location": {
@@ -26,11 +26,26 @@ let resume = {
             {
                 "network": "github",
                 "username": "<USERNAME>",
-                "url": "https://github.com/abhishek-xeb"
+                "url": "https://github.com/akalagoudra"
             }
         ]
     },
     "work": [
+        {
+            "company": "Delart Tech",
+            "position": "Sr Software Engineer",
+            "website": "https://delartech.com/",
+            "startDate": "2021-03-01",
+            "endDate": "Current",
+            "summary": "@Facebook MenloPark, US",
+            "highlights": [
+                "Onboarded Meta’s Terragraph project on Connectivity Testing Framework (CTF)",
+                "Developed serverless testing (CTF client) for OEM’s where CTF server is not accessible",
+                "Added feature to upload and highlight the asserts and crashes on CTF UI for quick attention",
+                "Made use of existing tool which collects logs and stats on Elasticsearch and Prometheus",
+                "Provide offline log collection from Elasticsearch which reduced test execution time by 20%-30%",
+            ]
+        },
         {
             "company": "Xebrium Inc",
             "position": "Sr Software Engineer",
@@ -40,7 +55,7 @@ let resume = {
             "summary": "@Facebook MenloPark, US",
             "highlights": [
                 "Leading the onshore development and operation of Facebooks in-house Test Automation System for validating Terragraph wireless radios",
-                "Wrote TaskManager which reduced test execution time by 12% to 20% and also helped to reduce 1000s of lines of code",
+                "Automated testing of builds before code commit, to allow users to run specific TestPlan, with test status monitoring and reporting the test result.",
                 "Developed Stats aggregator with help of Zmq and Thrift which collects and processes stats from  all Nodes and used a similar approach with Kafka with >100 Nodes",
                 "Developed log collection service to dump logs directly on the server with auto-restart, eliminating the log collection overhead on the Node which occupied space",
                 "Auto search and report assert and crash reducing manual effort on analysis",
@@ -48,7 +63,6 @@ let resume = {
                 "Created Microservice & Dockerized UI, API server, File server, and Worker and spawned Workers using Ansible when required",
                 "Created auto Backup and Restore mechanism of logs, data & db hosted on private VMs",
                 "Oncall to Add/Enhance/Fix TAS features to support changes released with Terragraph software"
-
             ]
         },
         {
